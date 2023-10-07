@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a{
+            color: deeppink;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: greenyellow;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: mediumpurple;
+        }
+        a:active{
+            color: lightseagreen;
+        }
+        .especial{
+            background-color: #0c4444b2;
+        }
+
+        .especial::before{
+            content: '❄ ';
+        }
+        .especial::after{
+            color: blueviolet;
+            
+    
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://youtu.be/KPdDnWn2H14?si=KED2v9tXuVfER6TZ" class="especial" target="_blank" rel="external">Vídeo 1</a></li>
+        <li><a href="https://youtu.be/_65zShl7A7E?si=_J20lnUBRKRgVsmP" target="_blank" rel="external">Vídeo 2</a></li>
+        <li><a href="https://youtu.be/6iHdVa9YQtI?si=GeUzTYXtJn-Ju2XM" target="_blank" rel="external">Vídeo 3</a></li> 
+    </ul>
+
+</body>
+</html>
