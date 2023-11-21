@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+        caption{
+            padding: 20px;
+            color: brown;
+            font-weight: bolder;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: burlywood;
+        }
+        #container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos eos doloremque consequatur nam sapiente aliquam harum sunt quaerat repellendus iste perferendis obcaecati, id possimus eligendi deleniti, officia ipsum minus porro?</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Televisão</th>
+                    <th>07</th>
+                    <th>08</th>
+                    <th>07</th>
+                    <th>05</th>
+                    <th>03</th>
+                    <th>08</th>
+                    <th>10</th>
+                    <th>03</th>
+                    <th>02</th>
+                    <th>05</th>
+                    <th>09</th>
+                    <th>03</th>
+                </tr>
+                <tr>
+                    <th>Geladeira</th>
+                    <th>07</th>
+                    <th>07</th>
+                    <th>09</th>
+                    <th>03</th>
+                    <th>07</th>
+                    <th>06</th>
+                    <th>03</th>
+                    <th>09</th>
+                    <th>08</th>
+                    <th>02</th>
+                    <th>07</th>
+                    <th>05</th>
+                </tr>
+                <tr>
+                    <th>Travesseiro</th>
+                    <th>03</th>
+                    <th>05</th>
+                    <th>05</th>
+                    <th>09</th>
+                    <th>08</th>
+                    <th>07</th>
+                    <th>01</th>
+                    <th>03</th>
+                    <th>Se</th>
+                    <th>03</th>
+                    <th>07</th>
+                    <th>03</th>
+                </tr>
+                <tr>
+                    <th>Lâmpada</th>
+                    <th>05</th>
+                    <th>03</th>
+                    <th>08</th>
+                    <th>08</th>
+                    <th>12</th>
+                    <th>03</th>
+                    <th>09</th>
+                    <th>08</th>
+                    <th>02</th>
+                    <th>07</th>
+                    <th>09</th>
+                    <th>10</th>
+                </tr>
+                <tr>
+                    <th>Espelho</th>
+                    <th>03</th>
+                    <th>02</th>
+                    <th>03</th>
+                    <th>05</th>
+                    <th>04</th>
+                    <th>09</th>
+                    <th>09</th>
+                    <th>06</th>
+                    <th>07</th>
+                    <th>10</th>
+                    <th>01</th>
+                    <th>09</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
